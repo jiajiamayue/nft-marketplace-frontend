@@ -7,8 +7,9 @@ import '../App.css';
 
 const NFTDetail = () => {
   const { tokenId } = useParams();
-  const [metadata, setMetadata] = useState('');
-  const [order, setOrder] = useState('');
+const [metadata, setMetadata] = useState('');
+const [order, setOrder] = useState('');
+
   const [allowance, setAllowance] = useState(0);
   
   const getWalletAddress = async () => {
